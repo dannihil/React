@@ -1,4 +1,10 @@
 {
+  "MacBook_Air_13_M2": [],
+
+  "MacBook_Air_13_M3": [],
+
+  "MacBook_Air_15_M3": [],
+
   "Macbook_Pro_14": [
     {
       "part_nr": "Z1DS",
@@ -391,5 +397,326 @@
         }
       }
     }
-  ]
+  ],
+
+  "Mac_mini": [
+    {
+      "part_nr": "Z1CF",
+      "description": "Mac mini M4 10/10-core 256GB/16GB",
+      "color": null,
+      "img_url": "/assets/mac_mini.png",
+      "price": 129990,
+      "epli_url": "https://www.epli.is/computer/mac-mini/mac-mini-m4/?sku=Z1CF",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": { "24GB": 40000, "32GB": 80000 },
+        "Storage": {
+          "512GB": 40000,
+          "1TB": 80000,
+          "2TB": 160000
+        },
+        "Other": { "10 Gigabit Ethernet": 20000 }
+      }
+    },
+    {
+      "part_nr": "Z1CG",
+      "description": "Mac mini M4 10/10-core 512GB/16GB",
+      "color": null,
+      "img_url": "/assets/mac_mini.png",
+      "price": 169990,
+      "epli_url": "https://www.epli.is/computer/mac-mini/mac-mini-m4/?sku=Z1CG",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": { "24GB": 40000, "32GB": 80000 },
+        "Storage": {
+          "1TB": 80000,
+          "2TB": 160000
+        },
+        "Other": { "10 Gigabit Ethernet": 20000 }
+      }
+    },
+    {
+      "part_nr": "Z1JX",
+      "description": "Mac mini M4 10/10-core 512GB/24GB",
+      "color": null,
+      "img_url": "/assets/mac_mini.png",
+      "price": 209990,
+      "epli_url": "https://www.epli.is/computer/mac-mini/mac-mini-m4/?sku=Z1JX",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": { "32GB": 80000 },
+        "Storage": {
+          "1TB": 40000,
+          "2TB": 130000
+        },
+        "Other": { "10 Gigabit Ethernet": 20000 }
+      }
+    },
+    {
+      "part_nr": "Z1JV",
+      "description": "Mac mini M4 Pro 12/16-core 512GB/24GB",
+      "color": null,
+      "img_url": "/assets/mac_mini.png",
+      "price": 289990,
+      "epli_url": "https://www.epli.is/computer/mac-mini/mac-mini-m4/?sku=Z1JV",
+      "cto_options": {
+        "Cpu": { "M4 Pro 14/20-core": 40000 },
+        "Ram": { "48GB": 80000, "64GB": 80000 },
+        "Storage": {
+          "1TB": 40000,
+          "2TB": 130000,
+          "4TB": 260000,
+          "8TB": 520000
+        },
+        "Other": { "10 Gigabit Ethernet": 20000 }
+      }
+    }
+  ],
+
+  "iMac": [
+    {
+      "part_nr": "Z1E2",
+      "description": "iMac 24\" M4 8/8-core 256GB/16GB",
+      "color": "Silver",
+      "img_url": "/assets/imac_silver.png",
+      "price": 279990,
+      "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1E2",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": {},
+        "Accessories": {},
+        "Screen": {}
+      }
+    },
+    {
+      "part_nr": "Z1E4",
+      "description": "iMac 24\" M4 8/8-core 256GB/16GB",
+      "color": "Green",
+      "img_url": "/assets/imac_green.png",
+      "price": 279990,
+      "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1E4",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": {},
+        "Accessories": {},
+        "Screen": {}
+      }
+    },
+    {
+      "part_nr": "Z1E5",
+      "description": "iMac 24\" M4 8/8-core 256GB/16GB",
+      "color": "Blue",
+      "img_url": "/assets/imac_blue.png",
+      "price": 279990,
+      "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1E5",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": {},
+        "Accessories": {},
+        "Screen": {}
+      }
+    },
+    {
+      "part_nr": "Z1E6",
+      "description": "iMac 24\" M4 8/8-core 256GB/16GB",
+      "color": "Pink",
+      "img_url": "/assets/imac_pink.png",
+      "price": 279990,
+      "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1E6",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": {},
+        "Accessories": {},
+        "Screen": {}
+      }
+    },
+    {
+      "part_nr": "Z1EH",
+      "description": "iMac 24\" M4 10/10-core 256GB/16GB",
+      "color": "Silver",
+      "img_url": "/assets/imac_silver.png",
+      "price": 319990,
+      "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1EH",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": {},
+        "Accessories": {},
+        "Screen": {}
+      }
+    },
+    {
+      "part_nr": "Z1EJ",
+      "description": "iMac 24\" M4 10/10-core 512GB/16GB",
+      "color": "Silver",
+      "img_url": "/assets/imac_silver.png",
+      "price": 359990,
+      "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1EJ",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": {},
+        "Accessories": {},
+        "Screen": {}
+      }
+    },
+    {
+      "part_nr": "Z1EM",
+      "description": "iMac 24\" M4 10/10-core 256GB/16GB",
+      "color": "Green",
+      "img_url": "/assets/imac_green.png",
+      "price": 319990,
+      "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1EM",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": {},
+        "Accessories": {},
+        "Screen": {}
+      }
+    },
+    {
+      "part_nr": "Z1EN",
+      "description": "iMac 24\" M4 10/10-core 512GB/16GB",
+      "color": "Green",
+      "img_url": "/assets/imac_green.png",
+      "price": 359990,
+      "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1EN",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": {},
+        "Accessories": {},
+        "Screen": {}
+      }
+    },
+    {
+      "part_nr": "Z1EP",
+      "description": "iMac 24\" M4 10/10-core 256GB/16GB",
+      "color": "Blue",
+      "img_url": "/assets/imac_blue.png",
+      "price": 319990,
+      "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1EP",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": {},
+        "Accessories": {},
+        "Screen": {}
+      }
+    },
+    {
+      "part_nr": "Z1EQ",
+      "description": "iMac 24\" M4 10/10-core 512GB/16GB",
+      "color": "Blue",
+      "img_url": "/assets/imac_blue.png",
+      "price": 359990,
+      "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1EQ",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": {},
+        "Accessories": {},
+        "Screen": {}
+      }
+    },
+    {
+      "part_nr": "Z1ER",
+      "description": "iMac 24\" M4 10/10-core 256GB/16GB",
+      "color": "Pink",
+      "img_url": "/assets/imac_pink.png",
+      "price": 319990,
+      "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1ER",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": {},
+        "Accessories": {},
+        "Screen": {}
+      }
+    },
+    {
+      "part_nr": "Z1ES",
+      "description": "iMac 24\" M4 10/10-core 512GB/16GB",
+      "color": "Pink",
+      "img_url": "/assets/imac_pink.png",
+      "price": 359990,
+      "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1ES",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": {},
+        "Accessories": {},
+        "Screen": {}
+      }
+    },
+    {
+      "part_nr": "Z1K1",
+      "description": "iMac 24\" M4 10/10-core 512GB/24GB",
+      "color": "Silver",
+      "img_url": "/assets/imac_silver.png",
+      "price": 399990,
+      "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1K1",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": {},
+        "Accessories": {},
+        "Screen": {}
+      }
+    },
+    {
+      "part_nr": "Z1K3",
+      "description": "iMac 24\" M4 10/10-core 512GB/24GB",
+      "color": "Green",
+      "img_url": "/assets/imac_green.png",
+      "price": 399990,
+      "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1K3",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": {},
+        "Accessories": {},
+        "Screen": {}
+      }
+    },
+    {
+      "part_nr": "Z1K5",
+      "description": "iMac 24\" M4 10/10-core 512GB/24GB",
+      "color": "Blue",
+      "img_url": "/assets/imac_blue.png",
+      "price": 399990,
+      "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1K5",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": {},
+        "Accessories": {},
+        "Screen": {}
+      }
+    },
+    {
+      "part_nr": "Z1K6",
+      "description": "iMac 24\" M4 10/10-core 512GB/24GB",
+      "color": "Pink",
+      "img_url": "/assets/imac_pink.png",
+      "price": 399990,
+      "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1K6",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": {},
+        "Accessories": {},
+        "Screen": {}
+      }
+    }
+  ],
+
+  "Mac_Studio": [],
+
+  "Mac_Pro": []
 }

@@ -7,12 +7,11 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 16px;
   color: rgb(255, 255, 255);
-  background-color: #555555;
+  background-color: #9a9a9a;
 }
 
 .product-card:hover {
-  border-color: #555555;
-  background-color: rgb(33, 33, 33);
+  background-color: rgb(132, 132, 132);
 }
 
 .product-card-image {
@@ -41,21 +40,9 @@
   text-decoration: none;
   border-radius: 4px;
   text-align: center;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    180deg,
-    rgb(141, 141, 141) 0%,
-    rgb(77, 77, 77) 35%,
-    rgb(26, 26, 26) 100%
-  );
+  background-color: #555555;
 }
 
 .button-link:hover {
-  background: rgb(32, 32, 32);
-  background: linear-gradient(
-    180deg,
-    rgb(121, 121, 121) 0%,
-    rgb(60, 60, 60) 35%,
-    rgb(26, 26, 26) 100%
-  );
+  background-color: rgb(61, 60, 60);
 }

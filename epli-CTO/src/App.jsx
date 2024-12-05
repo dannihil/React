@@ -66,6 +66,48 @@ function App() {
           )}
         </div>
       </div>
+      <div>
+        <h1>Mac mini</h1>
+        <div className="products-container">
+          {data && data.Mac_mini ? (
+            data.Mac_mini.map((item, index) => (
+              <ProductCard
+                key={index}
+                partNr={item.part_nr}
+                description={item.description}
+                color={item.color}
+                imgUrl={item.img_url}
+                price={item.price || "N/A"} // Optionally add a price field
+                epliUrl={item.epli_url}
+                ctoOptions={item.cto_options}
+              />
+            ))
+          ) : (
+            <p>Loading...</p>
+          )}
+        </div>
+      </div>
+      <div>
+        <h1>iMac</h1>
+        <div className="products-container">
+          {data && data.iMac ? (
+            data.iMac.map((item, index) => (
+              <ProductCard
+                key={index}
+                partNr={item.part_nr}
+                description={item.description}
+                color={item.color}
+                imgUrl={item.img_url}
+                price={item.price || "N/A"} // Optionally add a price field
+                epliUrl={item.epli_url}
+                ctoOptions={item.cto_options}
+              />
+            ))
+          ) : (
+            <p>Loading...</p>
+          )}
+        </div>
+      </div>
     </>
   );
 }

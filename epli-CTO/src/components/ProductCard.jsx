@@ -26,7 +26,7 @@ function ProductCard({
 
         {ctoOptions && (
           <div className="product-card-cto">
-            <h3>Customization Options:</h3>
+            <h3>Sérpöntunar möguleikar:</h3>
             {Object.entries(ctoOptions).map(([category, options]) => (
               <div key={category} className="cto-category">
                 <h4>{category}:</h4>
