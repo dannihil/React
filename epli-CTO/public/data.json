@@ -12,7 +12,10 @@
         "Ram": { "24GB": 40000, "32GB": 80000 },
         "Storage": { "1TB": 40000, "2TB": 120000 },
         "Accessories": { "96W Power Adapter": 3000 },
-        "Screen": { "Nano-texture display finish": 30000, "Standard glass": 0 }
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -27,7 +30,10 @@
         "Ram": { "24GB": 40000, "32GB": 80000 },
         "Storage": { "1TB": 40000, "2TB": 120000 },
         "Accessories": { "96W Power Adapter": 3000 },
-        "Screen": { "Nano-texture display finish": 30000, "Standard glass": 0 }
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -42,7 +48,10 @@
         "Ram": { "24GB": 40000, "32GB": 80000 },
         "Storage": { "2TB": 120000 },
         "Accessories": { "96W Power Adapter": 3000 },
-        "Screen": { "Nano-texture display finish": 30000, "Standard glass": 0 }
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -57,7 +66,10 @@
         "Ram": { "24GB": 40000, "32GB": 80000 },
         "Storage": { "2TB": 120000 },
         "Accessories": { "96W Power Adapter": 3000 },
-        "Screen": { "Nano-texture display finish": 30000, "Standard glass": 0 }
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -72,7 +84,10 @@
         "Ram": { "32GB": 40000 },
         "Storage": { "2TB": 80000 },
         "Accessories": { "96W Power Adapter": 3000 },
-        "Screen": { "Nano-texture display finish": 30000, "Standard glass": 0 }
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -87,7 +102,10 @@
         "Ram": { "32GB": 40000 },
         "Storage": { "2TB": 80000 },
         "Accessories": { "96W Power Adapter": 3000 },
-        "Screen": { "Nano-texture display finish": 30000, "Standard glass": 0 }
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -106,7 +124,10 @@
         "Ram": { "48GB": 60000 },
         "Storage": { "1TB": 40000, "2TB": 120000, "4TB": 240000 },
         "Accessories": { "96W Power Adapter": 3000 },
-        "Screen": { "Nano-texture display finish": 30000, "Standard glass": 0 }
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -125,7 +146,10 @@
         "Ram": { "48GB": 60000 },
         "Storage": { "1TB": 40000, "2TB": 120000, "4TB": 240000 },
         "Accessories": { "96W Power Adapter": 3000 },
-        "Screen": { "Nano-texture display finish": 30000, "Standard glass": 0 }
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -140,7 +164,10 @@
         "Ram": { "48GB": 80000 },
         "Storage": { "2TB": 80000, "4TB": 200000 },
         "Accessories": {},
-        "Screen": { "Nano-texture display finish": 30000, "Standard glass": 0 }
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -155,7 +182,10 @@
         "Ram": { "48GB": 80000 },
         "Storage": { "2TB": 80000, "4TB": 200000 },
         "Accessories": {},
-        "Screen": { "Nano-texture display finish": 30000, "Standard glass": 0 }
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -172,7 +202,10 @@
         "Ram": {},
         "Storage": { "2TB": 80000, "4TB": 200000, "8TB": 440000 },
         "Accessories": { "96W Power Adapter": 3000 },
-        "Screen": { "Nano-texture display finish": 30000, "Standard glass": 0 }
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -189,7 +222,10 @@
         "Ram": {},
         "Storage": { "2TB": 80000, "4TB": 200000, "8TB": 440000 },
         "Accessories": { "96W Power Adapter": 3000 },
-        "Screen": { "Nano-texture display finish": 30000, "Standard glass": 0 }
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     }
   ],
@@ -201,7 +237,20 @@
       "color": "Space Black",
       "img_url": "/assets/mbp_16_SB.png",
       "price": 529990,
-      "epli_url": "https://www.epli.is/computer/macbook-pro/macbook-pro-16-m4/?sku=Z1FT"
+      "epli_url": "https://www.epli.is/computer/macbook-pro/macbook-pro-16-m4/?sku=Z1FT",
+      "cto_options": {
+        "Cpu": {
+          "M4 Max 14/32-core": 120000,
+          "M4 Max 16/40-core": 180000
+        },
+        "Ram": { "48GB": 80000 },
+        "Storage": { "1TB": 40000, "2TB": 120000, "4TB": 240000 },
+        "Accessories": {},
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
+      }
     },
     {
       "part_nr": "Z1FP",
@@ -209,7 +258,20 @@
       "color": "Silver",
       "img_url": "/assets/mbp_16_SL.png",
       "price": 529990,
-      "epli_url": "https://www.epli.is/computer/macbook-pro/macbook-pro-16-m4/?sku=Z1FP"
+      "epli_url": "https://www.epli.is/computer/macbook-pro/macbook-pro-16-m4/?sku=Z1FP",
+      "cto_options": {
+        "Cpu": {
+          "M4 Max 14/32-core": 120000,
+          "M4 Max 16/40-core": 180000
+        },
+        "Ram": { "48GB": 80000 },
+        "Storage": { "1TB": 40000, "2TB": 120000, "4TB": 240000 },
+        "Accessories": {},
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
+      }
     },
     {
       "part_nr": "Z1FU",
@@ -217,7 +279,20 @@
       "color": "Space Black",
       "img_url": "/assets/mbp_16_SB.png",
       "price": 609990,
-      "epli_url": "https://www.epli.is/computer/macbook-pro/macbook-pro-16-m4/?sku=Z1FU"
+      "epli_url": "https://www.epli.is/computer/macbook-pro/macbook-pro-16-m4/?sku=Z1FU",
+      "cto_options": {
+        "Cpu": {
+          "M4 Max 14/32-core": 800000,
+          "M4 Max 16/40-core": 180000
+        },
+        "Ram": {},
+        "Storage": { "1TB": 40000, "2TB": 120000, "4TB": 240000 },
+        "Accessories": {},
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
+      }
     },
     {
       "part_nr": "Z1FQ",
@@ -225,7 +300,20 @@
       "color": "Silver",
       "img_url": "/assets/mbp_16_SL.png",
       "price": 609990,
-      "epli_url": "https://www.epli.is/computer/macbook-pro/macbook-pro-16-m4/?sku=Z1FQ"
+      "epli_url": "https://www.epli.is/computer/macbook-pro/macbook-pro-16-m4/?sku=Z1FQ",
+      "cto_options": {
+        "Cpu": {
+          "M4 Max 14/32-core": 800000,
+          "M4 Max 16/40-core": 180000
+        },
+        "Ram": {},
+        "Storage": { "1TB": 40000, "2TB": 120000, "4TB": 240000 },
+        "Accessories": {},
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
+      }
     },
     {
       "part_nr": "Z1FV",
@@ -233,7 +321,19 @@
       "color": "Space Black",
       "img_url": "/assets/mbp_16_SB.png",
       "price": 739990,
-      "epli_url": "https://www.epli.is/computer/macbook-pro/macbook-pro-16-m4/?sku=Z1FV"
+      "epli_url": "https://www.epli.is/computer/macbook-pro/macbook-pro-16-m4/?sku=Z1FV",
+      "cto_options": {
+        "Cpu": {
+          "M4 Max 16/40-core": 60000
+        },
+        "Ram": {},
+        "Storage": { "2TB": 80000, "4TB": 200000, "8TB": 440000 },
+        "Accessories": {},
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
+      }
     },
     {
       "part_nr": "Z1FR",
@@ -241,7 +341,19 @@
       "color": "Silver",
       "img_url": "/assets/mbp_16_SL.png",
       "price": 739990,
-      "epli_url": "https://www.epli.is/computer/macbook-pro/macbook-pro-16-m4/?sku=Z1FR"
+      "epli_url": "https://www.epli.is/computer/macbook-pro/macbook-pro-16-m4/?sku=Z1FR",
+      "cto_options": {
+        "Cpu": {
+          "M4 Max 16/40-core": 60000
+        },
+        "Ram": {},
+        "Storage": { "2TB": 80000, "4TB": 200000, "8TB": 440000 },
+        "Accessories": {},
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
+      }
     },
     {
       "part_nr": "Z1FW",
@@ -249,7 +361,17 @@
       "color": "Space Black",
       "img_url": "/assets/mbp_16_SB.png",
       "price": 849990,
-      "epli_url": "https://www.epli.is/computer/macbook-pro/macbook-pro-16-m4/?sku=Z1FW"
+      "epli_url": "https://www.epli.is/computer/macbook-pro/macbook-pro-16-m4/?sku=Z1FW",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": { "64GB": 40000, "128GB": 200000 },
+        "Storage": { "2TB": 80000, "4TB": 200000, "8TB": 440000 },
+        "Accessories": {},
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
+      }
     },
     {
       "part_nr": "Z1FS",
@@ -257,7 +379,17 @@
       "color": "Silver",
       "img_url": "/assets/mbp_16_SL.png",
       "price": 849990,
-      "epli_url": "https://www.epli.is/computer/macbook-pro/macbook-pro-16-m4/?sku=Z1FS"
+      "epli_url": "https://www.epli.is/computer/macbook-pro/macbook-pro-16-m4/?sku=Z1FS",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": { "64GB": 40000, "128GB": 200000 },
+        "Storage": { "2TB": 80000, "4TB": 200000, "8TB": 440000 },
+        "Accessories": {},
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
+      }
     }
   ]
 }

@@ -58,6 +58,7 @@ function App() {
                 imgUrl={item.img_url}
                 price={item.price || "N/A"} // Optionally add a price field
                 epliUrl={item.epli_url}
+                ctoOptions={item.cto_options}
               />
             ))
           ) : (
