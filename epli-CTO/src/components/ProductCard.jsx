@@ -20,7 +20,9 @@ function ProductCard({
       <div className="product-card-details">
         <h2 className="product-card-title">{partNr}</h2>
         <p className="product-card-description">{description}</p>
-        <p className="product-card-price">Verð: {formatCost(price)}kr</p>
+        <p className="product-card-price">
+          <b>Verð:</b> {formatCost(price)}kr
+        </p>
 
         {ctoOptions && (
           <div className="product-card-cto">
