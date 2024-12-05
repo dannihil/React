@@ -1,0 +1,74 @@
+import React, { useState, useEffect } from "react";
+import "./App.css";
+
+function App() {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    fetch("/data.json") // Fetch from the public folder
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.json();
+      })
+      .then((data) => setData(data))
+      .catch((error) =>
+        console.error(
+          "There has been a problem with your fetch operation:",
+          error
+        )
+      );
+  }, []);
+
+  return (
+    <>
+      <div>
+        <h1>MacBook Pro 14"</h1>
+        {data && data.Macbook_Pro_14 ? (
+          <div className="macbook_pro_14">
+            {data.Macbook_Pro_14.map((item, index) => (
+              <div key={index} className="product">
+                <h2>Vörunúmer: {item.part_nr}</h2>
+                <p>
+                  <b>Lýsing:</b> {item.description}
+                </p>
+                <p>
+                  <b>Litur:</b> {item.color}
+                </p>
+                <img src={item.img_url} alt={item.description} width="300" />
+                <p>Listaverð: {item.price}</p>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p>Error loading, please contact system admin.</p>
+        )}
+      </div>
+      <div>
+        <h1>MacBook Pro 16"</h1>
+        {data && data.MacBook_Pro_16 ? (
+          <div className="macbook_pro_16">
+            {data.MacBook_Pro_16.map((item, index) => (
+              <div key={index} className="product">
+                <h2>Vörunúmer: {item.part_nr}</h2>
+                <p>
+                  <b>Lýsing:</b> {item.description}
+                </p>
+                <p>
+                  <b>Litur:</b> {item.color}
+                </p>
+                <img src={item.img_url} alt={item.description} width="300" />
+                <p>Listaverð: {item.price}</p>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p>Error loading, please contact system admin.</p>
+        )}
+      </div>
+    </>
+  );
+}
+
+export default App;
