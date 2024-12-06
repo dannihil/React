@@ -9,6 +9,7 @@ function formatCost(cost) {
 function ProductCard({
   partNr,
   description,
+  color,
   imgUrl,
   price,
   epliUrl,
@@ -20,6 +21,9 @@ function ProductCard({
       <div className="product-card-details">
         <h2 className="product-card-title">{partNr}</h2>
         <p className="product-card-description">{description}</p>
+        <p className="product-card-color">
+          <b>Litur:</b> {color}
+        </p>
         <p className="product-card-price">
           <b>Verð:</b> {formatCost(price)}kr
         </p>

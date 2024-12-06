@@ -25,6 +25,48 @@ function App() {
   return (
     <>
       <div>
+        <h1>MacBook Air 13" M2</h1>
+        <div className="products-container">
+          {data && data.MacBook_Air_13_M2 ? (
+            data.MacBook_Air_13_M2.map((item, index) => (
+              <ProductCard
+                key={index}
+                partNr={item.part_nr}
+                description={item.description}
+                color={item.color}
+                imgUrl={item.img_url}
+                price={item.price || "N/A"} // Optionally add a price field
+                epliUrl={item.epli_url}
+                ctoOptions={item.cto_options}
+              />
+            ))
+          ) : (
+            <p>Loading...</p>
+          )}
+        </div>
+      </div>
+      <div>
+        <h1>MacBook Air 13" M3</h1>
+        <div className="products-container">
+          {data && data.MacBook_Air_13_M3 ? (
+            data.MacBook_Air_13_M3.map((item, index) => (
+              <ProductCard
+                key={index}
+                partNr={item.part_nr}
+                description={item.description}
+                color={item.color}
+                imgUrl={item.img_url}
+                price={item.price || "N/A"} // Optionally add a price field
+                epliUrl={item.epli_url}
+                ctoOptions={item.cto_options}
+              />
+            ))
+          ) : (
+            <p>Loading...</p>
+          )}
+        </div>
+      </div>
+      <div>
         <h1>MacBook Pro 14"</h1>
         <div className="products-container">
           {data && data.Macbook_Pro_14 ? (
@@ -92,6 +134,48 @@ function App() {
         <div className="products-container">
           {data && data.iMac ? (
             data.iMac.map((item, index) => (
+              <ProductCard
+                key={index}
+                partNr={item.part_nr}
+                description={item.description}
+                color={item.color}
+                imgUrl={item.img_url}
+                price={item.price || "N/A"} // Optionally add a price field
+                epliUrl={item.epli_url}
+                ctoOptions={item.cto_options}
+              />
+            ))
+          ) : (
+            <p>Loading...</p>
+          )}
+        </div>
+      </div>
+      <div>
+        <h1>Mac Studio</h1>
+        <div className="products-container">
+          {data && data.Mac_Studio ? (
+            data.Mac_Studio.map((item, index) => (
+              <ProductCard
+                key={index}
+                partNr={item.part_nr}
+                description={item.description}
+                color={item.color}
+                imgUrl={item.img_url}
+                price={item.price || "N/A"} // Optionally add a price field
+                epliUrl={item.epli_url}
+                ctoOptions={item.cto_options}
+              />
+            ))
+          ) : (
+            <p>Loading...</p>
+          )}
+        </div>
+      </div>
+      <div>
+        <h1>Mac Pro</h1>
+        <div className="products-container">
+          {data && data.Mac_Pro ? (
+            data.Mac_Pro.map((item, index) => (
               <ProductCard
                 key={index}
                 partNr={item.part_nr}

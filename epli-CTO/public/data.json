@@ -1,7 +1,213 @@
 {
-  "MacBook_Air_13_M2": [],
+  "MacBook_Air_13_M2": [
+    {
+      "part_nr": "Z1HK",
+      "description": "MacBook Air 13 M2 8/8-Core 256GB/16GB",
+      "color": "Space Grey",
+      "img_url": "/assets/mba_m2_sg.png",
+      "price": 199990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-13-m2/?sku=Z1HK",
+      "cto_options": {
+        "Cpu": { "M2 8/10-core": 20000 },
+        "Ram": { "24GB": 40000 },
+        "Storage": { "512GB": 40000, "1TB": 80000, "2TB": 160000 },
+        "Accessories": {
+          "35W Dual USB-C Power Adapter": 3000,
+          "70W Power Adapter": 3000
+        }
+      }
+    },
+    {
+      "part_nr": "Z1HL",
+      "description": "MacBook Air 13 M2 8/8-Core 256GB/16GB",
+      "color": "Silver",
+      "img_url": "/assets/mba_m2_sil.png",
+      "price": 199990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-13-m2/?sku=Z1HL",
+      "cto_options": {
+        "Cpu": { "M2 8/10-core": 20000 },
+        "Ram": { "24GB": 40000 },
+        "Storage": { "512GB": 40000, "1TB": 80000, "2TB": 160000 },
+        "Accessories": {
+          "35W Dual USB-C Power Adapter": 3000,
+          "70W Power Adapter": 3000
+        }
+      }
+    },
+    {
+      "part_nr": "Z1HM",
+      "description": "MacBook Air 13 M2 8/8-Core 256GB/16GB",
+      "color": "Starlight",
+      "img_url": "/assets/mba_m2_sl.png",
+      "price": 199990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-13-m2/?sku=Z1HM",
+      "cto_options": {
+        "Cpu": { "M2 8/10-core": 20000 },
+        "Ram": { "24GB": 40000 },
+        "Storage": { "512GB": 40000, "1TB": 80000, "2TB": 160000 },
+        "Accessories": {
+          "35W Dual USB-C Power Adapter": 3000,
+          "70W Power Adapter": 3000
+        }
+      }
+    },
+    {
+      "part_nr": "Z1HN",
+      "description": "MacBook Air 13 M2 8/8-Core 256GB/16GB",
+      "color": "Midnight",
+      "img_url": "/assets/mba_m2_mid.png",
+      "price": 199990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-13-m2/?sku=Z1HN",
+      "cto_options": {
+        "Cpu": { "M2 8/10-core": 20000 },
+        "Ram": { "24GB": 40000 },
+        "Storage": { "512GB": 40000, "1TB": 80000, "2TB": 160000 },
+        "Accessories": {
+          "35W Dual USB-C Power Adapter": 3000,
+          "70W Power Adapter": 3000
+        }
+      }
+    }
+  ],
 
-  "MacBook_Air_13_M3": [],
+  "MacBook_Air_13_M3": [
+    {
+      "part_nr": "Z1HT",
+      "description": "MMacBook Air 13 M3 8/8-Core 256GB/16GB",
+      "color": "Space Grey",
+      "img_url": "/assets/mba_m3_sg.png",
+      "price": 229990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-13-m3/?sku=Z1HT",
+      "cto_options": {
+        "Cpu": { "M3 8/10-core": 20000 },
+        "Ram": { "24GB": 40000 },
+        "Storage": { "512GB": 40000, "1TB": 80000, "2TB": 160000 },
+        "Accessories": {
+          "35W Dual USB-C Power Adapter": 3000,
+          "70W Power Adapter": 3000
+        }
+      }
+    },
+    {
+      "part_nr": "Z1HU",
+      "description": "MMacBook Air 13 M3 8/8-Core 256GB/16GB",
+      "color": "Silver",
+      "img_url": "/assets/mba_m3_sil.png",
+      "price": 229990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-13-m3/?sku=Z1HU",
+      "cto_options": {
+        "Cpu": { "M3 8/10-core": 20000 },
+        "Ram": { "24GB": 40000 },
+        "Storage": { "512GB": 40000, "1TB": 80000, "2TB": 160000 },
+        "Accessories": {
+          "35W Dual USB-C Power Adapter": 3000,
+          "70W Power Adapter": 3000
+        }
+      }
+    },
+    {
+      "part_nr": "Z1HV",
+      "description": "MMacBook Air 13 M3 8/8-Core 256GB/16GB",
+      "color": "Starlight",
+      "img_url": "/assets/mba_m3_sl.png",
+      "price": 229990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-13-m3/?sku=Z1HV",
+      "cto_options": {
+        "Cpu": { "M3 8/10-core": 20000 },
+        "Ram": { "24GB": 40000 },
+        "Storage": { "512GB": 40000, "1TB": 80000, "2TB": 160000 },
+        "Accessories": {
+          "35W Dual USB-C Power Adapter": 3000,
+          "70W Power Adapter": 3000
+        }
+      }
+    },
+    {
+      "part_nr": "Z1HW",
+      "description": "MMacBook Air 13 M3 8/8-Core 256GB/16GB",
+      "color": "Midnight",
+      "img_url": "/assets/mba_m3_mid.png",
+      "price": 229990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-13-m3/?sku=Z1HW",
+      "cto_options": {
+        "Cpu": { "M3 8/10-core": 20000 },
+        "Ram": { "24GB": 40000 },
+        "Storage": { "512GB": 40000, "1TB": 80000, "2TB": 160000 },
+        "Accessories": {
+          "35W Dual USB-C Power Adapter": 3000,
+          "70W Power Adapter": 3000
+        }
+      }
+    },
+    {
+      "part_nr": "Z1HX",
+      "description": "MMacBook Air 13 M3 8/10-Core 512GB/24GB",
+      "color": "Space Grey",
+      "img_url": "/assets/mba_m3_sg.png",
+      "price": 309990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-13-m3/?sku=Z1HX",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": { "1TB": 40000, "2TB": 120000 },
+        "Accessories": {
+          "35W Dual USB-C Power Adapter": null,
+          "70W Power Adapter": "No extra fee"
+        }
+      }
+    },
+    {
+      "part_nr": "Z1HY",
+      "description": "MMacBook Air 13 M3 8/10-Core 512GB/24GB",
+      "color": "Silver",
+      "img_url": "/assets/mba_m3_sil.png",
+      "price": 309990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-13-m3/?sku=Z1HY",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": { "1TB": 40000, "2TB": 120000 },
+        "Accessories": {
+          "35W Dual USB-C Power Adapter": null,
+          "70W Power Adapter": "No extra fee"
+        }
+      }
+    },
+    {
+      "part_nr": "Z1HZ",
+      "description": "MMacBook Air 13 M3 8/10-Core 512GB/24GB",
+      "color": "Starlight",
+      "img_url": "/assets/mba_m3_sl.png",
+      "price": 309990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-13-m3/?sku=Z1HZ",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": { "1TB": 40000, "2TB": 120000 },
+        "Accessories": {
+          "35W Dual USB-C Power Adapter": null,
+          "70W Power Adapter": "No extra fee"
+        }
+      }
+    },
+    {
+      "part_nr": "Z1J0",
+      "description": "MMacBook Air 13 M3 8/10-Core 512GB/24GB",
+      "color": "Midnight",
+      "img_url": "/assets/mba_m3_mid.png",
+      "price": 309990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-13-m3/?sku=Z1J0",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": { "1TB": 40000, "2TB": 120000 },
+        "Accessories": {
+          "35W Dual USB-C Power Adapter": null,
+          "70W Power Adapter": "No extra fee"
+        }
+      }
+    }
+  ],
 
   "MacBook_Air_15_M3": [],
 
@@ -483,10 +689,16 @@
       "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1E2",
       "cto_options": {
         "Cpu": {},
-        "Ram": {},
-        "Storage": {},
-        "Accessories": {},
-        "Screen": {}
+        "Ram": { "24GB": 40000 },
+        "Storage": { "512GB": 40000, "1TB": 80000 },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic keyboard with numeric keypad": 15000
+        },
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -498,10 +710,16 @@
       "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1E4",
       "cto_options": {
         "Cpu": {},
-        "Ram": {},
-        "Storage": {},
-        "Accessories": {},
-        "Screen": {}
+        "Ram": { "24GB": 40000 },
+        "Storage": { "512GB": 40000, "1TB": 80000 },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic keyboard with numeric keypad": 15000
+        },
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -513,10 +731,16 @@
       "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1E5",
       "cto_options": {
         "Cpu": {},
-        "Ram": {},
-        "Storage": {},
-        "Accessories": {},
-        "Screen": {}
+        "Ram": { "24GB": 40000 },
+        "Storage": { "512GB": 40000, "1TB": 80000 },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic keyboard with numeric keypad": 15000
+        },
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -528,10 +752,16 @@
       "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1E6",
       "cto_options": {
         "Cpu": {},
-        "Ram": {},
-        "Storage": {},
-        "Accessories": {},
-        "Screen": {}
+        "Ram": { "24GB": 40000 },
+        "Storage": { "512GB": 40000, "1TB": 80000 },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic keyboard with numeric keypad": 15000
+        },
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -543,10 +773,16 @@
       "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1EH",
       "cto_options": {
         "Cpu": {},
-        "Ram": {},
-        "Storage": {},
-        "Accessories": {},
-        "Screen": {}
+        "Ram": { "24GB": 40000, "32GB": 80000 },
+        "Storage": { "512GB": 40000, "1TB": 80000, "2TB": 160000 },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic keyboard with numeric keypad": 15000
+        },
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -558,10 +794,16 @@
       "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1EJ",
       "cto_options": {
         "Cpu": {},
-        "Ram": {},
-        "Storage": {},
-        "Accessories": {},
-        "Screen": {}
+        "Ram": { "24GB": 40000, "32GB": 80000 },
+        "Storage": { "1TB": 40000, "2TB": 120000 },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic keyboard with numeric keypad": 15000
+        },
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -573,10 +815,16 @@
       "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1EM",
       "cto_options": {
         "Cpu": {},
-        "Ram": {},
-        "Storage": {},
-        "Accessories": {},
-        "Screen": {}
+        "Ram": { "24GB": 40000, "32GB": 80000 },
+        "Storage": { "512GB": 40000, "1TB": 80000, "2TB": 160000 },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic keyboard with numeric keypad": 15000
+        },
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -588,10 +836,16 @@
       "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1EN",
       "cto_options": {
         "Cpu": {},
-        "Ram": {},
-        "Storage": {},
-        "Accessories": {},
-        "Screen": {}
+        "Ram": { "24GB": 40000, "32GB": 80000 },
+        "Storage": { "1TB": 40000, "2TB": 120000 },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic keyboard with numeric keypad": 15000
+        },
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -603,10 +857,16 @@
       "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1EP",
       "cto_options": {
         "Cpu": {},
-        "Ram": {},
-        "Storage": {},
-        "Accessories": {},
-        "Screen": {}
+        "Ram": { "24GB": 40000, "32GB": 80000 },
+        "Storage": { "512GB": 40000, "1TB": 80000, "2TB": 160000 },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic keyboard with numeric keypad": 15000
+        },
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -618,10 +878,16 @@
       "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1EQ",
       "cto_options": {
         "Cpu": {},
-        "Ram": {},
-        "Storage": {},
-        "Accessories": {},
-        "Screen": {}
+        "Ram": { "24GB": 40000, "32GB": 80000 },
+        "Storage": { "1TB": 40000, "2TB": 120000 },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic keyboard with numeric keypad": 15000
+        },
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -633,10 +899,16 @@
       "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1ER",
       "cto_options": {
         "Cpu": {},
-        "Ram": {},
-        "Storage": {},
-        "Accessories": {},
-        "Screen": {}
+        "Ram": { "24GB": 40000, "32GB": 80000 },
+        "Storage": { "512GB": 40000, "1TB": 80000, "2TB": 160000 },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic keyboard with numeric keypad": 15000
+        },
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -648,10 +920,16 @@
       "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1ES",
       "cto_options": {
         "Cpu": {},
-        "Ram": {},
-        "Storage": {},
-        "Accessories": {},
-        "Screen": {}
+        "Ram": { "24GB": 40000, "32GB": 80000 },
+        "Storage": { "1TB": 40000, "2TB": 120000 },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic keyboard with numeric keypad": 15000
+        },
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -663,10 +941,16 @@
       "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1K1",
       "cto_options": {
         "Cpu": {},
-        "Ram": {},
-        "Storage": {},
-        "Accessories": {},
-        "Screen": {}
+        "Ram": { "32GB": 40000 },
+        "Storage": { "1TB": 40000, "2TB": 120000 },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic keyboard with numeric keypad": 15000
+        },
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -678,10 +962,16 @@
       "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1K3",
       "cto_options": {
         "Cpu": {},
-        "Ram": {},
-        "Storage": {},
-        "Accessories": {},
-        "Screen": {}
+        "Ram": { "32GB": 40000 },
+        "Storage": { "1TB": 40000, "2TB": 120000 },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic keyboard with numeric keypad": 15000
+        },
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -693,10 +983,16 @@
       "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1K5",
       "cto_options": {
         "Cpu": {},
-        "Ram": {},
-        "Storage": {},
-        "Accessories": {},
-        "Screen": {}
+        "Ram": { "32GB": 40000 },
+        "Storage": { "1TB": 40000, "2TB": 120000 },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic keyboard with numeric keypad": 15000
+        },
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     },
     {
@@ -708,15 +1004,125 @@
       "epli_url": "https://www.epli.is/computer/imac/imac-24-m4/?sku=Z1K6",
       "cto_options": {
         "Cpu": {},
-        "Ram": {},
-        "Storage": {},
-        "Accessories": {},
-        "Screen": {}
+        "Ram": { "32GB": 40000 },
+        "Storage": { "1TB": 40000, "2TB": 120000 },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic keyboard with numeric keypad": 15000
+        },
+        "Screen": {
+          "Standard glass": null,
+          "Nano-texture display finish": 30000
+        }
       }
     }
   ],
 
-  "Mac_Studio": [],
+  "Mac_Studio": [
+    {
+      "part_nr": "Z17Z",
+      "description": "Mac Studio M2 Max 12/30-core 512GB/32GB",
+      "color": null,
+      "img_url": "/assets/mac_studio.png",
+      "price": 399990,
+      "epli_url": "https://www.epli.is/computer/mac-studio/mac-studio-m2/?sku=Z17Z",
+      "cto_options": {
+        "Cpu": {
+          "M2 Max 12/38-core": 40000,
+          "M2 Ultra 24/60-core": 400000,
+          "M2 Ultra 24/76-core": 600000
+        },
+        "Ram": {
+          "64GB": 80000,
+          "96GB": 200000,
+          "128GB": 560000,
+          "192GB": 720000
+        },
+        "Storage": {
+          "1TB": 40000,
+          "2TB": 120000,
+          "4TB": 240000,
+          "8TB": 480000
+        }
+      }
+    },
+    {
+      "part_nr": "Z180",
+      "description": "Mac Studio M2 Ultra 24/60-core 1TB/64GB",
+      "color": null,
+      "img_url": "/assets/mac_studio.png",
+      "price": 799990,
+      "epli_url": "https://www.epli.is/computer/mac-studio/mac-studio-m2/?sku=Z180",
+      "cto_options": {
+        "Cpu": {
+          "M2 Ultra 24/76-core": 200000
+        },
+        "Ram": {
+          "128GB": 160000,
+          "192GB": 320000
+        },
+        "Storage": {
+          "2TB": 80000,
+          "4TB": 200000,
+          "8TB": 440000
+        }
+      }
+    }
+  ],
 
-  "Mac_Pro": []
+  "Mac_Pro": [
+    {
+      "part_nr": "Z1JZ",
+      "description": "Mac Pro - Tower: Apple M2 Ultra",
+      "color": null,
+      "img_url": "/assets/mac_pro.png",
+      "price": 1349990,
+      "epli_url": "https://www.epli.is/computer/mac-pro/mac-pro-tower-apple-m2-ultra/?sku=Z171",
+      "cto_options": {
+        "Cpu": {
+          "M2 Ultra 24/76-core": 200000
+        },
+        "Ram": {
+          "128GB": 160000,
+          "192GB": 320000
+        },
+        "Storage": {
+          "2TB": 80000,
+          "4TB": 200000,
+          "8TB": 440000
+        },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic Mouse + Magic Trackpad": 30000,
+          "Stainless steel frame with wheels": 80000
+        }
+      }
+    },
+    {
+      "part_nr": "Z1K0",
+      "description": "Mac Pro - Rack: Apple M2 Ultra",
+      "color": null,
+      "img_url": "/assets/mac_pro_rack.png",
+      "price": 1449990,
+      "epli_url": "https://www.epli.is/computer/mac-pro/mac-pro-tower-apple-m2-ultra/?sku=Z171",
+      "cto_options": {
+        "Cpu": {
+          "M2 Ultra 24/76-core": 200000
+        },
+        "Ram": {
+          "128GB": 160000,
+          "192GB": 320000
+        },
+        "Storage": {
+          "2TB": 80000,
+          "4TB": 200000,
+          "8TB": 440000
+        },
+        "Accessories": {
+          "Magic Trackpad": 10000,
+          "Magic Mouse + Magic Trackpad": 30000
+        }
+      }
+    }
+  ]
 }
