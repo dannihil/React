@@ -67,6 +67,27 @@ function App() {
         </div>
       </div>
       <div>
+        <h1>MacBook Air 15" M3</h1>
+        <div className="products-container">
+          {data && data.MacBook_Air_15_M3 ? (
+            data.MacBook_Air_15_M3.map((item, index) => (
+              <ProductCard
+                key={index}
+                partNr={item.part_nr}
+                description={item.description}
+                color={item.color}
+                imgUrl={item.img_url}
+                price={item.price || "N/A"} // Optionally add a price field
+                epliUrl={item.epli_url}
+                ctoOptions={item.cto_options}
+              />
+            ))
+          ) : (
+            <p>Loading...</p>
+          )}
+        </div>
+      </div>
+      <div>
         <h1>MacBook Pro 14"</h1>
         <div className="products-container">
           {data && data.Macbook_Pro_14 ? (

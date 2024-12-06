@@ -73,7 +73,7 @@
   "MacBook_Air_13_M3": [
     {
       "part_nr": "Z1HT",
-      "description": "MMacBook Air 13 M3 8/8-Core 256GB/16GB",
+      "description": "MacBook Air 13 M3 8/8-Core 256GB/16GB",
       "color": "Space Grey",
       "img_url": "/assets/mba_m3_sg.png",
       "price": 229990,
@@ -90,7 +90,7 @@
     },
     {
       "part_nr": "Z1HU",
-      "description": "MMacBook Air 13 M3 8/8-Core 256GB/16GB",
+      "description": "MacBook Air 13 M3 8/8-Core 256GB/16GB",
       "color": "Silver",
       "img_url": "/assets/mba_m3_sil.png",
       "price": 229990,
@@ -107,7 +107,7 @@
     },
     {
       "part_nr": "Z1HV",
-      "description": "MMacBook Air 13 M3 8/8-Core 256GB/16GB",
+      "description": "MacBook Air 13 M3 8/8-Core 256GB/16GB",
       "color": "Starlight",
       "img_url": "/assets/mba_m3_sl.png",
       "price": 229990,
@@ -124,7 +124,7 @@
     },
     {
       "part_nr": "Z1HW",
-      "description": "MMacBook Air 13 M3 8/8-Core 256GB/16GB",
+      "description": "MacBook Air 13 M3 8/8-Core 256GB/16GB",
       "color": "Midnight",
       "img_url": "/assets/mba_m3_mid.png",
       "price": 229990,
@@ -141,7 +141,7 @@
     },
     {
       "part_nr": "Z1HX",
-      "description": "MMacBook Air 13 M3 8/10-Core 512GB/24GB",
+      "description": "MacBook Air 13 M3 8/10-Core 512GB/24GB",
       "color": "Space Grey",
       "img_url": "/assets/mba_m3_sg.png",
       "price": 309990,
@@ -158,7 +158,7 @@
     },
     {
       "part_nr": "Z1HY",
-      "description": "MMacBook Air 13 M3 8/10-Core 512GB/24GB",
+      "description": "MacBook Air 13 M3 8/10-Core 512GB/24GB",
       "color": "Silver",
       "img_url": "/assets/mba_m3_sil.png",
       "price": 309990,
@@ -175,7 +175,7 @@
     },
     {
       "part_nr": "Z1HZ",
-      "description": "MMacBook Air 13 M3 8/10-Core 512GB/24GB",
+      "description": "MacBook Air 13 M3 8/10-Core 512GB/24GB",
       "color": "Starlight",
       "img_url": "/assets/mba_m3_sl.png",
       "price": 309990,
@@ -192,7 +192,7 @@
     },
     {
       "part_nr": "Z1J0",
-      "description": "MMacBook Air 13 M3 8/10-Core 512GB/24GB",
+      "description": "MacBook Air 13 M3 8/10-Core 512GB/24GB",
       "color": "Midnight",
       "img_url": "/assets/mba_m3_mid.png",
       "price": 309990,
@@ -209,7 +209,120 @@
     }
   ],
 
-  "MacBook_Air_15_M3": [],
+  "MacBook_Air_15_M3": [
+    {
+      "part_nr": "Z1J9",
+      "description": "MacBook Air 15 M3 8/10-Core 256GB/16GB",
+      "color": "Space Grey",
+      "img_url": "/assets/mba_15_m3_sg.png",
+      "price": 269990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-15-m3/?sku=Z1J9",
+      "cto_options": {
+        "Cpu": { "M3 8/10-core": 20000 },
+        "Ram": { "24GB": 40000 },
+        "Storage": { "512GB": 40000, "1TB": 80000, "2TB": 160000 },
+        "Accessories": {}
+      }
+    },
+    {
+      "part_nr": "Z1JA",
+      "description": "MacBook Air 15 M3 8/10-Core 256GB/16GB",
+      "color": "Silver",
+      "img_url": "/assets/mba_15_m3_sil.png",
+      "price": 269990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-15-m3/?sku=Z1JA",
+      "cto_options": {
+        "Cpu": { "M3 8/10-core": 20000 },
+        "Ram": { "24GB": 40000 },
+        "Storage": { "512GB": 40000, "1TB": 80000, "2TB": 160000 },
+        "Accessories": {}
+      }
+    },
+    {
+      "part_nr": "Z1JB",
+      "description": "MacBook Air 15 M3 8/10-Core 256GB/16GB",
+      "color": "Starlight",
+      "img_url": "/assets/mba_15_m3_stl.png",
+      "price": 269990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-15-m3/?sku=Z1JB",
+      "cto_options": {
+        "Cpu": { "M3 8/10-core": 20000 },
+        "Ram": { "24GB": 40000 },
+        "Storage": { "512GB": 40000, "1TB": 80000, "2TB": 160000 },
+        "Accessories": {}
+      }
+    },
+    {
+      "part_nr": "Z1JC",
+      "description": "MacBook Air 15 M3 8/10-Core 256GB/16GB",
+      "color": "Midnight",
+      "img_url": "/assets/mba_15_m3_mid.png",
+      "price": 269990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-15-m3/?sku=Z1JC",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": { "24GB": 40000 },
+        "Storage": { "512GB": 40000, "1TB": 80000, "2TB": 160000 },
+        "Accessories": {}
+      }
+    },
+    {
+      "part_nr": "Z1JD",
+      "description": "MacBook Air 15 M3 8/10-Core 512GB/24GB",
+      "color": "Space Grey",
+      "img_url": "/assets/mba_15_m3_sg.png",
+      "price": 349990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-15-m3/?sku=Z1JD",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": { "1TB": 40000, "2TB": 120000 },
+        "Accessories": {}
+      }
+    },
+    {
+      "part_nr": "Z1JE",
+      "description": "MacBook Air 15 M3 8/10-Core 512GB/24GB",
+      "color": "Silver",
+      "img_url": "/assets/mba_15_m3_sil.png",
+      "price": 349990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-15-m3/?sku=Z1JE",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": { "1TB": 40000, "2TB": 120000 },
+        "Accessories": {}
+      }
+    },
+    {
+      "part_nr": "Z1JF",
+      "description": "MacBook Air 15 M3 8/10-Core 512GB/24GB",
+      "color": "Starlight",
+      "img_url": "/assets/mba_15_m3_stl.png",
+      "price": 349990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-15-m3/?sku=Z1JF",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": { "1TB": 40000, "2TB": 120000 },
+        "Accessories": {}
+      }
+    },
+    {
+      "part_nr": "Z1JG",
+      "description": "MacBook Air 15 M3 8/10-Core 512GB/24GB",
+      "color": "Midnight",
+      "img_url": "/assets/mba_15_m3_mid.png",
+      "price": 349990,
+      "epli_url": "https://www.epli.is/computer/macbook-air/macbook-air-15-m3/?sku=Z1JG",
+      "cto_options": {
+        "Cpu": {},
+        "Ram": {},
+        "Storage": { "1TB": 40000, "2TB": 120000 },
+        "Accessories": {}
+      }
+    }
+  ],
 
   "Macbook_Pro_14": [
     {
