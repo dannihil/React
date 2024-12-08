@@ -1,4 +1,5 @@
 import React from "react";
+import { FaUser, FaFacebook } from "react-icons/fa";
 import "./NavBar.css";
 
 function NavBar() {
@@ -9,7 +10,7 @@ function NavBar() {
     <div className="navbar">
       <div>
         <a href="#">
-          <img src={logo} alt="Logo" style={{ width: 100 }} />
+          <img src={logo} alt="Logo" style={{ width: 69, marginLeft: 19 }} />
         </a>
       </div>
       <div>
@@ -46,9 +47,12 @@ function NavBar() {
           </li>
         </ul>
       </div>
-      <div className="user-icon">
-        <a href="#">
-          <img src={userIcon} alt="Logo" style={{ width: 50 }} />
+      <div>
+        <a href="https://www.epli.is/minar-sidur">
+          <FaUser
+            className="user-icon"
+            style={{ width: 30, height: "100%", marginRight: 10 }}
+          />
         </a>
       </div>
     </div>

@@ -3,10 +3,9 @@ ul {
 }
 
 .navbar {
-  position: absolute; /* Or absolute if desired */
+  position: fixed; /* Or absolute if desired */
   top: 0;
   left: 0;
-  bottom: 100;
   width: 100%; /* Full width of the viewport */
   background-color: #242424; /* Example background color */
   color: white;
@@ -16,11 +15,8 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.navbar-brand {
-  font-size: 1.5rem;
   font-weight: bold;
+  height: 85px;
 }
 
 .navbar-links {
@@ -29,9 +25,9 @@ ul {
 }
 
 .nav-link {
-  color: white;
+  color: rgb(139, 139, 139);
   font-family: -apple-system, BlinkMacSystemFont;
-  font-size: 22px;
+  font-size: 18px;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   transition: background-color 0.2s;
@@ -43,17 +39,20 @@ ul {
 }
 
 .nav-link-button {
-  color: white;
+  color: rgb(186, 185, 185);
   text-decoration: none;
 }
 
 .nav-link-button:hover {
-  color: rgb(186, 186, 186);
+  color: rgb(255, 255, 255);
 }
 
-.nav-link-button:active {
+.user-icon {
   color: white;
-  text-decoration: none;
+}
+
+.user-icon:hover {
+  color: rgb(186, 186, 186);
 }
 
 @media (max-width: 768px) {
