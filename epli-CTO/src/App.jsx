@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import ProductCard from "./components/ProductCard";
+import NavBar from "./components/Navbar";
 
 function App() {
   const [data, setData] = useState(null);
@@ -24,7 +25,8 @@ function App() {
 
   return (
     <>
-      <div>
+      <NavBar className="navbar" />
+      <div style={{ paddingTop: "150px" }}>
         <h1>MacBook Air 13" M2</h1>
         <div className="products-container">
           {data && data.MacBook_Air_13_M2 ? (
