@@ -10,6 +10,7 @@ import Mac_Mini from "./pages/macMini";
 import MacPro from "./pages/macPro";
 import MacStudio from "./pages/macStudio";
 import Footer from "./components/Footer";
+import GettingStarted from "./pages/GettingStarted";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/getting-started" element={<GettingStarted />} />
             <Route path="/macbook-air" element={<MacbookAir />} />
             <Route path="/macbook-pro" element={<MacbookPro />} />
             <Route path="/imac" element={<Imac />} />

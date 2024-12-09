@@ -1,0 +1,8 @@
+.category-box {
+  cursor: pointer;
+  color: black;
+}
+
+.category-box:hover {
+  transform: scale(1.03);
+}

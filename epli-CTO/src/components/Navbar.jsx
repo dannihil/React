@@ -11,7 +11,7 @@ function NavBar() {
     <div className="navbar">
       <div>
         <Link to="/" className="nav-link">
-          <img src={logo} alt="Logo" style={{ width: 69, marginLeft: 19 }} />
+          <img src={logo} alt="Logo" style={{ width: 70, marginLeft: 19 }} />
         </Link>
       </div>
       <div>
