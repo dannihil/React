@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../css/MacPro.css";
+import "../css/MacStudio.css";
 import ProductCard from "../components/ProductCard";
 
 function MacStudio() {

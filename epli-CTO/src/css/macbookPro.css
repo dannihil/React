@@ -1,7 +1,36 @@
-.content-container {
-  display: grid;
+/* Center the title and content */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
-.content {
-  color: black;
+/* Style the title */
+.content h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Grid layout for product cards */
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+  gap: 20px; /* Spacing between items */
+  width: 100%; /* Full-width container */
+  max-width: 1200px; /* Optional: Limit container width */
+  margin: 0 auto; /* Center the grid container */
+  padding: 20px;
+}
+
+/* Product card styles (if needed) */
+.product-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
 }

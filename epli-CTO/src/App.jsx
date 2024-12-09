@@ -14,17 +14,19 @@ function App() {
   return (
     <div>
       <NavBar />
-      <main className="main-content">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/macbook-air" element={<MacbookAir />} />
-          <Route path="/macbook-pro" element={<MacbookPro />} />
-          <Route path="/imac" element={<Imac />} />
-          <Route path="/mac-mini" element={<Mac_Mini />} />
-          <Route path="/mac-studio" element={<MacStudio />} />
-          <Route path="/mac-pro" element={<MacPro />} />
-        </Routes>
-      </main>
+      <div className="main-content">
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/macbook-air" element={<MacbookAir />} />
+            <Route path="/macbook-pro" element={<MacbookPro />} />
+            <Route path="/imac" element={<Imac />} />
+            <Route path="/mac-mini" element={<Mac_Mini />} />
+            <Route path="/mac-studio" element={<MacStudio />} />
+            <Route path="/mac-pro" element={<MacPro />} />
+          </Routes>
+        </main>
+      </div>
     </div>
   );
 }
