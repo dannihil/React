@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProductCard.css";
+import "../css/ProductCard.css";
 
 // Utility function to format numbers
 function formatCost(cost) {

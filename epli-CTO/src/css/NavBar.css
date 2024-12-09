@@ -24,21 +24,9 @@ ul {
   gap: 2rem;
 }
 
-.nav-link {
-  color: rgb(139, 139, 139);
-  font-family: -apple-system, BlinkMacSystemFont;
-  font-size: 18px;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  transition: background-color 0.2s;
-}
-
-.nav-link:hover {
-  color: #bababa;
-  cursor: pointer;
-}
-
 .nav-link-button {
+  font-size: 18px;
+  font-weight: bold;
   color: rgb(186, 185, 185);
   text-decoration: none;
 }
