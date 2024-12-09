@@ -1,11 +1,18 @@
 import React from "react";
 import "../css/Home.css";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
+
   return (
     <div className="content">
-      <h1 className="title">Welcome to Epli Custom Order portal!</h1>
-      <h3>hello</h3>
+      <div>
+        <h1 className="title" style={{ fontSize: "60px" }}>
+          Welcome to Epli Custom Order portal!
+        </h1>
+        <button onClick={() => navigate("/macbook-air")}>Get started!</button>
+      </div>
     </div>
   );
 }

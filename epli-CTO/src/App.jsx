@@ -9,6 +9,7 @@ import Imac from "./pages/iMac";
 import Mac_Mini from "./pages/macMini";
 import MacPro from "./pages/macPro";
 import MacStudio from "./pages/macStudio";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           </Routes>
         </main>
       </div>
+      <Footer />
     </div>
   );
 }

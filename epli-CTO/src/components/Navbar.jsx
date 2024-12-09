@@ -1,5 +1,5 @@
 import React from "react";
-import { FaUser } from "react-icons/fa";
+import { FaUser, FaShoppingCart } from "react-icons/fa";
 import "../css/NavBar.css";
 import { Link } from "react-router-dom";
 
@@ -39,11 +39,19 @@ function NavBar() {
       <div>
         <a href="https://www.epli.is/minar-sidur">
           <FaUser
-            className="user-icon"
+            className="icon"
             style={{
               width: 30,
               height: "100%",
-              marginRight: 10,
+            }}
+          />
+          <FaShoppingCart
+            className="icon"
+            style={{
+              width: 30,
+              height: "100%",
+              marginRight: 20,
+              marginLeft: 25,
             }}
           />
         </a>

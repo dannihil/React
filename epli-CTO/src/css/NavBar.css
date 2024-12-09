@@ -29,17 +29,19 @@ ul {
   font-weight: bold;
   color: rgb(186, 185, 185);
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .nav-link-button:hover {
   color: rgb(255, 255, 255);
 }
 
-.user-icon {
+.icon {
   color: white;
+  transition: color 0.3s ease;
 }
 
-.user-icon:hover {
+.icon:hover {
   color: rgb(186, 186, 186);
 }
 
