@@ -7,7 +7,7 @@ ul {
   top: 0;
   left: 0;
   width: 100%; /* Full width of the viewport */
-  background-color: #262626; /* Example background color */
+  background-color: #262626ed; /* Example background color */
   color: white;
   padding: 1rem; /* Optional, for inner spacing */
   margin: 0; /* Remove any default margin */
@@ -17,6 +17,8 @@ ul {
   align-items: center;
   font-weight: bold;
   height: 82px;
+  z-index: 1;
+  backdrop-filter: blur(8px);
 }
 
 .navbar-links {

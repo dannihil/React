@@ -1,26 +1,98 @@
-.title {
-  color: black;
-  font-size: 50px;
+div.content {
+  margin-bottom: 50px;
 }
 
-button {
+div.home-top-component {
+  width: 100%;
+  top: 0;
+  height: 30em;
+  padding-top: 120px;
+  padding-bottom: 30px;
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    rgb(171, 214, 252) 0%,
+    rgb(102, 130, 162) 13%,
+    rgb(58, 67, 95) 100%
+  );
+}
+
+body h1.title {
+  position: absolute;
+  left: 18rem;
+  top: 17rem;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 30;
+  text-shadow: -0.05px 0.05px 5px rgb(0, 0, 0);
+}
+
+img.home-top-image {
+  position: absolute;
+  right: 15rem;
+  width: 1000px;
+  height: auto;
+}
+
+div.login-component {
+  padding-top: 450px;
+}
+
+p.intro-text {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 100px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid;
+  border-color: #242424;
+  border-radius: 10px;
+  transition: border-color 0.2s ease;
+}
+p.intro-text:hover {
+  border-color: #c8c8c8;
+}
+
+.login-signup-buttons {
   font-size: 25px;
   font-weight: bold;
   background-color: #242424;
+  color: rgb(255, 255, 255);
+  transition: background-color 0.15s ease;
+  border-radius: 50px;
+  border: 2px solid rgb(0, 0, 0);
+  width: 200px;
+}
+
+.login-signup-buttons:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(1, 1, 1);
+}
+
+div.login-component {
+}
+
+body h1.login-signup-h1 {
+  font-size: 40px;
+}
+
+.order-button {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: background-color 0.2s ease;
+  border-radius: 50px;
+  border: 2px solid white;
+  width: 200px;
+}
+.order-button:hover {
+  background-color: rgba(255, 255, 255, 0);
   color: white;
-  transition: color 0.3s ease;
-}
-
-button:hover {
-  color: rgb(186, 185, 185);
-}
-
-.apple-icon {
-  transition: transform 0.3s ease;
-}
-
-.apple-icon:hover {
-  transform: scale(1.01);
+  border: 2px solid white;
 }
 
 .signinbutton {

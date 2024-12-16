@@ -22,72 +22,89 @@ function Home() {
 
   return (
     <div className="content">
-      <div
-        style={{
-          paddingBottom: 20,
-        }}
-      >
+      <div className="home-top-component">
+        <h1 className="title">Sérpöntunarvefur</h1>
         <img
+          className="home-top-image"
           src="/assets/line-up.png"
           draggable="false"
-          style={{ width: 1000 }}
         />
       </div>
       <SignedIn>
-        <div>
-          <h1
-            className="title"
-            style={{
-              fontSize: "60px",
-              fontWeight: 900,
-              paddingBottom: 0,
-            }}
+        <div className="home-top-component">
+          <img
+            className="home-top-image"
+            src="/assets/line-up.png"
+            draggable="false"
+          />
+          <h1 className="title">Sérpöntunarvefur</h1>
+          <button
+            className="order-button"
+            onClick={() => navigate("/getting-started")}
           >
-            Epli
-          </h1>
-          <h2
-            className="title"
-            style={{
-              fontSize: "40px",
-              paddingBottom: 30,
-            }}
-          >
-            Sérpöntunarvefur
-          </h2>
-          <button onClick={() => navigate("/getting-started")}>Panta</button>
+            Panta
+          </button>
+        </div>
+        <div className="paragraph">
+          <p className="intro-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris odio
+            velit, faucibus nec vulputate ut, lacinia sit amet dolor. Class
+            aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos. Nullam felis sem, tincidunt mollis convallis a,
+            venenatis ut ante. Quisque sodales, lacus eget lobortis aliquam,
+            tortor dolor sodales erat, quis interdum magna erat sit amet lorem.
+            Nam ut neque vel lectus dictum viverra a id risus. Fusce hendrerit,
+            risus eu suscipit cursus, felis augue pretium enim, ac blandit velit
+            libero sit amet diam. Donec porta, magna at consequat sollicitudin,
+            dui felis accumsan nisl, eu aliquet ligula lorem id eros. Aenean
+            elementum mauris non nunc commodo, vel hendrerit tortor bibendum.
+            Phasellus augue lacus, cursus ac mi at, ullamcorper suscipit dolor.
+            Maecenas tincidunt lorem varius, ultrices ex nec, cursus tellus.
+            Nulla pulvinar volutpat luctus. Vivamus pulvinar urna libero. Duis
+            auctor eget nisi in ullamcorper. Fusce suscipit dolor in imperdiet
+            porttitor. Sed ut augue at magna mollis luctus. Aenean condimentum
+            non sem ut ultricies.
+          </p>
         </div>
       </SignedIn>
       <SignedOut>
-        <div>
-          <h1
-            className="title"
-            style={{
-              fontSize: "40px",
-              paddingBottom: 0,
-            }}
-          >
-            Skráðu þig inn til þess að panta
-          </h1>
-          <div className="forms" style={{ paddingBottom: 100 }}>
-            <SignInButton style={{ marginRight: 15 }} />
-            <SignUpButton style={{}} />
-          </div>
-          <div className="paragraph">
-            <p
-              style={{ width: "50%", marginLeft: "auto", marginRight: "auto" }}
+        <div className="login-component">
+          <h1 className="login-signup-h1">Skráðu þig inn til þess að byrja</h1>
+          <div className="forms">
+            <SignInButton
+              className="login-signup-buttons"
+              style={{ marginRight: 15, marginBottom: 30 }}
             >
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
-            </p>
+              Innskráning
+            </SignInButton>
+            <SignUpButton
+              className="login-signup-buttons"
+              style={{ marginBottom: 30 }}
+            >
+              Nýskráning
+            </SignUpButton>
           </div>
+        </div>
+        <div className="paragraph">
+          <p className="intro-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris odio
+            velit, faucibus nec vulputate ut, lacinia sit amet dolor. Class
+            aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos. Nullam felis sem, tincidunt mollis convallis a,
+            venenatis ut ante. Quisque sodales, lacus eget lobortis aliquam,
+            tortor dolor sodales erat, quis interdum magna erat sit amet lorem.
+            Nam ut neque vel lectus dictum viverra a id risus. Fusce hendrerit,
+            risus eu suscipit cursus, felis augue pretium enim, ac blandit velit
+            libero sit amet diam. Donec porta, magna at consequat sollicitudin,
+            dui felis accumsan nisl, eu aliquet ligula lorem id eros. Aenean
+            elementum mauris non nunc commodo, vel hendrerit tortor bibendum.
+            Phasellus augue lacus, cursus ac mi at, ullamcorper suscipit dolor.
+            Maecenas tincidunt lorem varius, ultrices ex nec, cursus tellus.
+            Nulla pulvinar volutpat luctus. Vivamus pulvinar urna libero. Duis
+            auctor eget nisi in ullamcorper. Fusce suscipit dolor in imperdiet
+            porttitor. Sed ut augue at magna mollis luctus. Aenean condimentum
+            non sem ut ultricies.
+          </p>
         </div>
       </SignedOut>
     </div>
