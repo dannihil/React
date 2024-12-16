@@ -13,8 +13,8 @@ body {
   display: flex;
   flex-direction: column; /* Stack children vertically */
   align-items: center; /* Center children horizontally */
-  justify-content: center; /* Center children vertically */
   text-align: center;
+  margin-top: 100px;
   min-height: 100vh; /* Full height of the viewport */
   padding: 20px;
   width: 100%; /* Ensure it takes full width of the screen */

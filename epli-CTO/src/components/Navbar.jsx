@@ -2,16 +2,34 @@ import React from "react";
 import { FaUser, FaShoppingCart } from "react-icons/fa";
 import "../css/NavBar.css";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
+import {
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  UserButton,
+  useUser,
+} from "@clerk/clerk-react";
 
 function NavBar() {
   const logo = "/assets/thumbnail_Epli_logo_invert.png";
   const userIcon = "/assets/user_icon.png";
 
+  const navigate = useNavigate();
+
+  const { isSignedIn, user } = useUser();
+
   return (
     <div className="navbar">
       <div>
         <Link to="/" className="nav-link">
-          <img src={logo} alt="Logo" style={{ width: 70, marginLeft: 19 }} />
+          <img
+            src={logo}
+            alt="Logo"
+            style={{ width: 60, marginLeft: 19 }}
+            draggable="false"
+          />
         </Link>
       </div>
       <div>
@@ -37,24 +55,31 @@ function NavBar() {
         </ul>
       </div>
       <div>
-        <a href="https://www.epli.is/minar-sidur">
-          <FaUser
-            className="icon"
-            style={{
-              width: 30,
-              height: "100%",
-            }}
-          />
-          <FaShoppingCart
-            className="icon"
-            style={{
-              width: 30,
-              height: "100%",
-              marginRight: 20,
-              marginLeft: 25,
-            }}
-          />
-        </a>
+        <SignedIn>
+          <Link to="/login">
+            <UserButton userProfileUrl="/login" userProfileMode="navigation" />
+          </Link>
+        </SignedIn>
+        <SignedOut>
+          <Link to="/login">
+            <FaUser
+              className="icon"
+              style={{
+                width: 30,
+                height: "100%",
+              }}
+            />
+          </Link>
+        </SignedOut>
+        <FaShoppingCart
+          className="icon"
+          style={{
+            width: 30,
+            height: "100%",
+            marginRight: 20,
+            marginLeft: 25,
+          }}
+        />
       </div>
     </div>
   );

@@ -40,7 +40,7 @@ const CategoryBox = () => {
   ];
 
   return (
-    <div style={{ display: "flex", flexWrap: "wrap", gap: "20px" }}>
+    <div style={{ display: "flex", flexWrap: "wrap", gap: "30px" }}>
       {categories.map((category) => (
         <div
           className="category-box"
@@ -48,11 +48,11 @@ const CategoryBox = () => {
           onClick={() => navigate(category.navigation)}
           style={{
             border: "1px solid #ddd",
-            borderRadius: "8px",
+            borderRadius: "10px",
             padding: "16px",
             textAlign: "center",
             width: "200px",
-            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)",
           }}
         >
           <img
@@ -63,9 +63,6 @@ const CategoryBox = () => {
           <h3 style={{ fontSize: "20px", margin: "12px 0" }}>
             {category.categoryName}
           </h3>
-          <p style={{ fontSize: "14px", color: "#555" }}>
-            {category.description}
-          </p>
         </div>
       ))}
     </div>

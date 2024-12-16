@@ -11,6 +11,8 @@ import MacPro from "./pages/macPro";
 import MacStudio from "./pages/macStudio";
 import Footer from "./components/Footer";
 import GettingStarted from "./pages/GettingStarted";
+import LogIn from "./pages/LogIn";
+import SignUpFor from "./pages/SignUp";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
             <Route path="/mac-mini" element={<Mac_Mini />} />
             <Route path="/mac-studio" element={<MacStudio />} />
             <Route path="/mac-pro" element={<MacPro />} />
+            <Route path="/login" element={<LogIn />} />
+            <Route path="/signup" element={<SignUpFor />} />
           </Routes>
         </main>
       </div>

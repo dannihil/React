@@ -25,7 +25,7 @@ function MacPro() {
   return (
     <>
       <div className="content">
-        <div style={{ paddingTop: "100px" }}>
+        <div>
           <h1>Mac Pro</h1>
           <div className="products-container">
             {data && data.Mac_Pro ? (

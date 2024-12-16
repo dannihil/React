@@ -22,3 +22,11 @@ button:hover {
 .apple-icon:hover {
   transform: scale(1.01);
 }
+
+.signinbutton {
+  margin-right: 20;
+}
+
+.forms {
+  margin-right: 15px;
+}
