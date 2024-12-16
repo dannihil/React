@@ -8,6 +8,7 @@ button {
   font-weight: bold;
   background-color: #242424;
   color: white;
+  transition: color 0.3s ease;
 }
 
 button:hover {
@@ -15,7 +16,7 @@ button:hover {
 }
 
 .apple-icon {
-  transition: color 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .apple-icon:hover {

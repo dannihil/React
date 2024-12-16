@@ -60,7 +60,7 @@ const CategoryBox = () => {
             alt={category.description}
             style={{ width: "100%", borderRadius: "8px", objectFit: "cover" }}
           />
-          <h3 style={{ fontSize: "16px", margin: "12px 0" }}>
+          <h3 style={{ fontSize: "20px", margin: "12px 0" }}>
             {category.categoryName}
           </h3>
           <p style={{ fontSize: "14px", color: "#555" }}>
