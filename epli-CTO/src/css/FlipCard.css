@@ -1,0 +1,71 @@
+/* Container for the two FlipCards */
+.flips {
+  display: flex; /* Use flexbox to display cards side by side */
+  gap: 50px; /* Space between the cards */
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  justify-content: center; /* Center the cards horizontally */
+  width: 100%; /* Full width */
+  max-width: 1500px; /* Optional: max width for better control */
+  margin-left: auto;
+  margin-right: auto; /* Center the container horizontally */
+}
+
+/* Styling for each individual FlipCard */
+div.paragraph {
+  position: relative; /* Enable positioning of the plus icon inside the card */
+  width: 600px; /* 45% of the width to allow two cards per row */
+  height: 1; /* Fixed height for the card */
+  margin: 0; /* Reset any unwanted margin */
+  padding: 100px 100px 100px 100px; /* Adjust padding */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+  border: 1px solid #242424;
+  border-radius: 10px; /* Rounded corners */
+  transition: background-color 0.5s ease, border-color 0.2s ease;
+  background-color: #ffffff; /* Default background color */
+  overflow: hidden; /* Prevent icon from overflowing */
+}
+
+div.paragraph img {
+  width: 100%; /* Ensure image takes the full width of the card */
+  height: auto; /* Maintain the aspect ratio */
+  object-fit: cover; /* Ensure the image covers the available space without distortion */
+  border-radius: 25px;
+  margin-top: 25px;
+}
+
+/* Hover effect on the card */
+div.paragraph:hover {
+  border-color: #c8c8c8;
+}
+
+/* When the card is active (clicked), change background color */
+div.paragraph.active {
+  background-color: #242424;
+  color: white;
+}
+
+/* Styling for the plus icon */
+.plus-icon {
+  position: absolute; /* Position the icon inside the card */
+  bottom: 15px; /* Place the icon 30px from the bottom */
+  right: 0px;
+  transform: translateX(-50%); /* Adjust for perfect centering */
+  color: #242424; /* Default color */
+  font-size: 30px; /* Icon size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: color 0.2s ease;
+}
+
+/* Hover effect for the plus icon */
+.plus-icon:hover {
+  color: #6c6c6c;
+}
+
+/* Active state for the plus icon */
+.plus-icon.active {
+  color: #ffffff;
+}
+
+.plus-icon.active:hover {
+  color: #a3a3a3;
+}

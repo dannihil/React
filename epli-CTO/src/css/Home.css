@@ -17,6 +17,21 @@ div.home-top-component {
   );
 }
 
+div.home-top-component-signedin {
+  width: 100%;
+  top: 0;
+  height: 35em;
+  padding-top: 120px;
+  padding-bottom: 30px;
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    rgb(171, 214, 252) 0%,
+    rgb(102, 130, 162) 13%,
+    rgb(58, 67, 95) 100%
+  );
+}
+
 body h1.title {
   position: absolute;
   left: 18rem;
@@ -36,23 +51,7 @@ img.home-top-image {
 }
 
 div.login-component {
-  padding-top: 450px;
-}
-
-p.intro-text {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  padding: 100px;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
-  border: 1px solid;
-  border-color: #242424;
-  border-radius: 10px;
-  transition: border-color 0.2s ease;
-}
-p.intro-text:hover {
-  border-color: #c8c8c8;
+  padding-top: 390px;
 }
 
 .login-signup-buttons {
@@ -88,7 +87,12 @@ body h1.login-signup-h1 {
   border-radius: 50px;
   border: 2px solid white;
   width: 200px;
+  position: absolute; /* Position it absolutely within its parent */
+  bottom: 30px; /* 30px from the bottom */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for perfect centering */
 }
+
 .order-button:hover {
   background-color: rgba(255, 255, 255, 0);
   color: white;
@@ -101,4 +105,8 @@ body h1.login-signup-h1 {
 
 .forms {
   margin-right: 15px;
+}
+
+div.flips {
+  display: flex;
 }

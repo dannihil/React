@@ -15,8 +15,12 @@ body {
   margin-top: 100px;
   min-height: 100vh; /* Full height of the viewport */
   padding: 20px;
-  width: 100%; /* Ensure it takes full width of the screen */
+  /* Ensure it takes full width of the screen */
   box-sizing: border-box; /* Include padding in width calculations */
+}
+
+main {
+  width: 100;
 }
 
 /* Optional: Ensure no margin or padding issues are coming from other components */
