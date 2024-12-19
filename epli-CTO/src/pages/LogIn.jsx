@@ -1,7 +1,11 @@
 import LogInForm from "../components/LogInForm";
 
 function LogIn() {
-  return <LogInForm />;
+  return (
+    <>
+      <LogInForm />
+    </>
+  );
 }
 
 export default LogIn;

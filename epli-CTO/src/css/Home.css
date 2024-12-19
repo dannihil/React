@@ -35,7 +35,7 @@ div.home-top-component-signedin {
 body h1.title {
   position: absolute;
   left: 18rem;
-  top: 17rem;
+  top: 15rem;
   color: rgb(255, 255, 255);
   font-size: 50px;
   font-weight: 700;
@@ -51,7 +51,10 @@ img.home-top-image {
 }
 
 div.login-component {
-  padding-top: 390px;
+  padding-top: 370px;
+}
+div.loggedin-component {
+  padding-top: 450px;
 }
 
 .login-signup-buttons {
@@ -78,6 +81,11 @@ body h1.login-signup-h1 {
   font-size: 40px;
 }
 
+body h1.greeting-h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
 .order-button {
   font-size: 25px;
   font-weight: bold;
@@ -88,7 +96,7 @@ body h1.login-signup-h1 {
   border: 2px solid white;
   width: 200px;
   position: absolute; /* Position it absolutely within its parent */
-  bottom: 30px; /* 30px from the bottom */
+  bottom: 40px; /* 30px from the bottom */
   left: 50%; /* Center horizontally */
   transform: translateX(-50%); /* Adjust for perfect centering */
 }
@@ -104,9 +112,9 @@ body h1.login-signup-h1 {
 }
 
 .forms {
-  margin-right: 15px;
 }
 
 div.flips {
   display: flex;
+  margin-top: 15px;
 }
