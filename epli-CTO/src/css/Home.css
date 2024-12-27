@@ -5,7 +5,7 @@ div.content {
 div.home-top-component {
   width: 100%;
   top: 0;
-  height: 30em;
+  height: 33em;
   padding-top: 120px;
   padding-bottom: 30px;
   position: absolute;
@@ -20,7 +20,7 @@ div.home-top-component {
 div.home-top-component-signedin {
   width: 100%;
   top: 0;
-  height: 35em;
+  height: 38em;
   padding-top: 120px;
   padding-bottom: 30px;
   position: absolute;
@@ -33,9 +33,6 @@ div.home-top-component-signedin {
 }
 
 body h1.title {
-  position: absolute;
-  left: 18rem;
-  top: 15rem;
   color: rgb(255, 255, 255);
   font-size: 50px;
   font-weight: 700;
@@ -44,17 +41,15 @@ body h1.title {
 }
 
 img.home-top-image {
-  position: absolute;
-  right: 15rem;
   width: 1000px;
   height: auto;
 }
 
 div.login-component {
-  padding-top: 370px;
+  padding-top: 410px;
 }
 div.loggedin-component {
-  padding-top: 450px;
+  padding-top: 490px;
 }
 
 .login-signup-buttons {
@@ -96,7 +91,7 @@ body h1.greeting-h1 {
   border: 2px solid white;
   width: 200px;
   position: absolute; /* Position it absolutely within its parent */
-  bottom: 40px; /* 30px from the bottom */
+  bottom: 35px; /* 30px from the bottom */
   left: 50%; /* Center horizontally */
   transform: translateX(-50%); /* Adjust for perfect centering */
 }

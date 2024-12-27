@@ -1,0 +1,65 @@
+.main-box {
+  display: flex;
+  width: 100%;
+}
+
+.image-box {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Optional: hides overflow if the image exceeds the container */
+  border: 1px solid rgb(233, 233, 233);
+  box-shadow: -1px 1px 8px rgb(223, 223, 223);
+  margin-right: 30px;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ensures the image maintains its aspect ratio */
+}
+
+.info-box {
+  width: 600px;
+  height: 450px;
+  display: flex;
+  flex-direction: column; /* Aligns child elements vertically */
+  justify-content: flex-start; /* Aligns items at the top */
+  align-items: flex-start; /* Aligns items to the left */
+
+  padding: 10px;
+  position: relative;
+  text-align: left;
+}
+
+.info-box h1 {
+  margin-bottom: 10px;
+}
+
+.info-box h2 {
+  position: absolute;
+  bottom: 10px;
+}
+
+.info-box button {
+  position: absolute;
+  bottom: 10px;
+  left: 150px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 25px;
+  background-color: #242424;
+}
+
+.spec-list {
+}
+
+.cto-box {
+  margin-top: 60px;
+}
+
+hr {
+  width: 50%;
+}

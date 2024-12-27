@@ -28,12 +28,12 @@ function Home() {
     <div className="content">
       <SignedIn>
         <div className="home-top-component-signedin">
-          <h1 className="title">Sérpöntunarvefur</h1>
           <img
             className="home-top-image"
             src="/assets/line-up.png"
             draggable="false"
           />
+          <h1 className="title">Sérpöntunarvefur</h1>
           <button
             className="order-button"
             onClick={() => navigate("/getting-started")}
@@ -59,12 +59,12 @@ function Home() {
       </SignedIn>
       <SignedOut>
         <div className="home-top-component">
-          <h1 className="title">Sérpöntunarvefur</h1>
           <img
             className="home-top-image"
             src="/assets/line-up.png"
             draggable="false"
           />
+          <h1 className="title">Sérpöntunarvefur</h1>
         </div>
         <div className="login-component">
           <h1 className="login-signup-h1">Skráðu þig inn til þess að byrja</h1>

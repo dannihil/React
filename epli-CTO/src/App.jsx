@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import GettingStarted from "./pages/GettingStarted";
 import LogIn from "./pages/LogIn";
 import SignUpFor from "./pages/SignUp";
+import Processing from "./pages/Processing";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/mac-pro" element={<MacPro />} />
           <Route path="/login" element={<LogIn />} />
           <Route path="/signup" element={<SignUpFor />} />
+          <Route path="/processing" element={<Processing />} />
         </Routes>
       </div>
       <Footer />
